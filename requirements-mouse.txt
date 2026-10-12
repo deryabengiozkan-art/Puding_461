@@ -1,0 +1,3 @@
+# Mouse practice needs no webcam, OpenCV or MediaPipe.
+numpy==2.0.2
+pygame==2.6.1

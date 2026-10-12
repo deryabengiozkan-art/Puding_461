@@ -1,0 +1,6 @@
+# All requirements are local to this folder so it can be shared independently.
+-r requirements-mouse.txt
+# Keep the tracker version verified with our custom recognition code.
+mediapipe==0.10.35
+# Install only one cv2 provider. This satisfies MediaPipe's declared dependency.
+opencv-contrib-python==5.0.0.93
